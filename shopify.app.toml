@@ -3,7 +3,7 @@
 client_id = "0e36454be772919b5d1841638e28ffcc"
 name = "adaptive-negotiation-app"
 handle = "adaptive-negotiation-app-9"
-application_url = "https://example.com/"
+application_url = "https://aye-xuaq.onrender.com"
 embedded = true
 
 [build]
@@ -29,7 +29,9 @@ api_version = "2025-04"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [	"https://aye-xuaq.onrender.com/auth/callback",
+    			"https://aye-xuaq.onrender.com/auth/shopify/callback",
+    			"https://aye-xuaq.onrender.com/api/auth/callback" ]
 
 [pos]
 embedded = false
